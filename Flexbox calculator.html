@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+    <body>
+
+        <nav id="navbar">         <!--desktop nav bar-->
+            <a href="./index.html"> About me</a>
+              <a href="./index.html#contact">Contact </a>
+              <a href="./Register.html" >Register </a>
+              <a href="./Login.html">Login</a>
+              <a href="./Calculator 1.html">Calculator 1</a>
+              <a href="./Flexbox calculator.html">Calculator 2</a>
+              <a href="index.html#footer">Footer</a>
+        </nav>
+
+
+        <div id= "dropDown" class="dropdown">      <!--mobile nav bar-->
+          <button id="hamburgerBtn" onclick="dropDown()"><img class="hamburger" src="./images/icons8-menu-squared-100.png" alt="menu icon"></button>
+          
+            <div id="dropdownContent"  class="dropdown-content">
+              <a href="./index.html"> About me</a>
+              <a href="./index.html#contact">Contact </a>
+              <a href="./Register.html" >Register </a>
+              <a href="./Login.html">Login</a>
+              <a href="./Calculator 1.html">Calculator 1</a>
+              <a href="./Flexbox calculator.html">Calculator 2</a>
+              <a href="index.html#footer">Footer</a>
+            </div>
+        </div>  
+
+
+
+
+
+
+                             <!--calculator starts here -->
+
+
+
+        <section id="calculator2" class="calculator2">
+
+
+            <h1>A Simple Calculator Using Flexbox</h1>
+  
+  
+              <div class="calc-flex-container">
+  
+                  <input class="input-area" type="text" id="inputArea2" name="">
+  
+  
+                    <div class="top-row-btns">
+                        <input type="button" id="c" value="C">
+                        <input type="button" id="" value="/">
+                        <input type="button" id="" value="x">
+                    </div>
+  
+  
+                    <div class="inner-calc-btns">  
+  
+                        <div class="num-btns">
+                          
+                            <input type="button" id="" value="9">
+                            <input type="button" id="" value="8">
+                            <input type="button" id="" value="7">
+                            <input type="button" id="" value="6">
+                            <input type="button" id="" value="5">
+                            <input type="button" id="" value="4">
+                            <input type="button" id="" value="3">
+                            <input type="button" id="" value="2">
+                            <input type="button" id="" value="1">
+                            <input type="button" id="" value="00">
+                            <input type="button" id="" value="0">
+                            <input type="button" id="" value=".">
+                        </div>
+  
+  
+                        <div class="side-btns">
+                          
+                            <input type="button" id="" value="-">
+                            <input type="button" id="" value="+">
+                            <input type="button" id="equals" value="=">
+                        </div>
+                    </div>  
+                  
+              </div>
+
+
+              <br><br><br><br><br><br>
+              
+      </section>  
+      
+
+
+                <script src="script.js"></script>
+        
+    </body>
+</html>

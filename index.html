@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Onyekachi Fakoya</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+
+
+
+
+
+  
+<body >
+
+
+        <nav id="navbar">         <!--desktop nav bar-->
+            <a href="#aboutMe"> About me</a>
+            <a href="#contact">Contact </a>
+            <a href="./Register.html" >Register </a>
+            <a href="./Login.html">Login</a>
+            <a href="./Calculator 1.html">Calculator 1</a>
+            <a href="./Flexbox calculator.html">Calculator 2</a>
+            <a href="#footer">Footer</a>
+        </nav>
+
+
+        <div id= "dropDown" class="dropdown">      <!--mobile nav bar-->
+          <button id="hamburgerBtn" onclick="dropDown()"><img class="hamburger" src="./images/icons8-menu-squared-100.png" alt="menu icon"></button>
+          
+            <div id="dropdownContent"  class="dropdown-content">
+              <a href="#aboutMe"> About me</a>
+              <a href="#contact">Contact </a>
+              <a href="./Register.html" >Register </a>
+              <a href="./Login.html">Login</a>
+              <a href="./Calculator 1.html">Calculator 1</a>
+              <a href="./Flexbox calculator.html">Calculator 2</a>
+              <a href="#footer">Footer</a>
+            </div>
+        </div>  
+
+        
+
+
+
+            
+                
+              
+
+            
+                <main id="aboutMe">
+
+                        
+                        <div id="description">
+                            
+                            <div>
+                                <h1>Onyekachi Fakoya</h1>
+                                
+                                <p>A front-end developer, whose focus is on
+                                  helping businesses leverage their digital presence to drive growth by building engaging and interactive user interfaces.
+                                </p>
+                            </div>
+
+                              <div id="pic-div">
+                                <img id="myPic" src="./images/my-pic.jpeg" alt="Onyekachi's picture">   <!--my picture-->
+                              </div>
+
+                        </div>
+
+
+                            <br><br>
+                        
+                      
+                        <h3>SKILLS</h3>    
+                            <ul>
+                                <li><h5>Technical skills</h5></li>
+                                <p>HTML, CSS, JavaScript,Responsive/Mobile Design  </p>
+                            
+                                <li><h5>Research</h5></li>
+                                <p>User research</p>
+                            
+                                <li><h5>Prototyping</h5></li>
+                                <p>Figma</p>
+
+                                <li><h5>Process</h5></li>
+                                <p>Design Thinking</p>
+
+                                <li><h5>Soft skills</h5></li>
+                                <p>
+                                  Proactive, Self-starting, Creative, Adaptable, Detailed-oriented
+                                  
+                                  
+                                  
+                                  </p>
+                            
+                            </ul>
+                              
+                          
+
+                            <br> <br>
+                        <h3>WORK EXPERIENCE</h3>
+                          <h4>Front End Developer</h4>
+                            <i>Freelance | Lagos</i>
+                    
+                        <ul>
+                            <li> Designing and building business tools for small business using
+                              HTML, CSS and JavaScript.</li>
+                            <li> Implement research findings in design.</li>
+                            <li> Ensure that designs and codes conform to visual design and
+                              accessibility standards.</li>
+                        </ul>
+                    
+                        <br>
+                    
+                        <h4>Front End Developer Intern (Remote)</h4>
+                            <i>Side Hustle NG | Ibadan</i>
+                        <ul>
+                            <li>Collaborated with a product team and other Front End Developers
+                              to work on a web application , translating design wireframes into
+                              code using HTML and CSS.</li>
+                            <li> Collaborated with the content creation team to produce web
+                              content.</li>
+                            <li> Worked with the UI/UX team to create mobile responsive versions
+                            of the web pages.</li>
+                        </ul>
+                    
+                    
+                        <br> <br> <br>
+                    
+                        <h3>GOALS</h3>
+                            <ul>
+                              <li>Learn how to write clean codes</li>
+                              <li>Be proficient in JavaScript and React</li>
+                              <li>Finish as a stellar student</li>
+                              <li>Become employable as a software engineer</li>
+                            </ul>
+                    
+                        <br> <br>
+                        <h3>EDUCATION</h3>
+                            <i>University of Lagos</i>
+                            <p>BSc/B.Ed Biology Education</p>
+                    
+                        <br> <br>
+                    
+                        <h3>HOBBIES</h3>
+                            <ul>
+                                <li>Reading novels</li>
+                                <li>Playing cooking games</li>
+                                <li>Travelling</li>
+                      
+                            </ul>
+
+                      
+
+
+                            <br><br><br><br>
+                      <div id="backToTop">
+              
+                          <a href="#navbar">Back to top</a> <img class="arrow" src="./images/top-pointing-arrow.png" alt="arrow">
+                      
+                      </div>
+
+
+                      <div id="backToTopMobile"  >
+    
+                        <a href="#dropDown" >Back to top</a> <img class="arrow" src="./images/top-pointing-arrow.png">
+                        
+                      </div>
+                        
+                </main> <!--about me section ends here-->
+                
+                  <br>  
+                
+
+
+  
+      
+      
+                            <!-- Contact section begins here -->
+                    
+      <section id="contact">
+        <br><br>
+                <h1>Contact</h1>
+            <form>
+                <label for="name">Name</label><br> <input type="text" id="name" name="name" placeholder="Full name">
+            
+                <br><br>
+                <label for="Email">Email</label><br> <input type="email" id="Email" name="Email" placeholder="e.g adajohn@gmail.com" required >
+            
+                
+                <br><br>
+                <label for="Message">Message</label><br>  <textarea id="message" required > </textarea>
+                
+
+
+                <br><br>
+                <label for="priority">Priority</label>
+                <br>
+                    <select name="priority" id="priority">
+                        <option value="">  </option>
+                        <option value="High">High</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Low">Low</option>
+                    </select>
+            
+                <br><br>
+                <button>Submit</button>
+            
+            </form>
+
+            <br><br><br><br>
+          <div id="backToTop"  >
+    
+              <a href="#navbar" >Back to top</a> <img class="arrow" src="./images/top-pointing-arrow.png">
+              
+          </div>
+
+
+
+          <div id="backToTopMobile" >
+    
+            <a href="#dropDown" >Back to top</a> <img class="arrow" src="./images/top-pointing-arrow.png">
+            
+          </div>
+
+          <br><br>
+      
+      </section>
+
+
+  
+      
+                    <!--footer starts here-->
+      
+        
+  
+  <footer id="footer">
+
+            <a href="https://twitter.com/pwettykach" target="_blank"> Twitter</a>
+            <a href="https://github.com/kachifako" target="_blank">Github </a>
+            <a href="https://www.linkedin.com/in/onyekachi-fakoya-9230a5b3/" target="_blank">LinkedIn </a>
+            
+              
+  </footer>
+   
+          
+        
+        <script src="script.js"></script>
+</body>
+
+
+</html>

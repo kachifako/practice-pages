@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator1</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+
+    <body>
+
+
+        <nav id="navbar">         <!--desktop nav bar-->
+            <a href="./index.html"> About me</a>
+              <a href="./index.html#contact">Contact </a>
+              <a href="./Register.html" >Register </a>
+              <a href="./Login.html">Login</a>
+              <a href="./Calculator 1.html">Calculator 1</a>
+              <a href="./Flexbox calculator.html">Calculator 2</a>
+              <a href="index.html#footer">Footer</a>
+        </nav>
+
+
+        <div id= "dropDown" class="dropdown">      <!--mobile nav bar-->
+          <button id="hamburgerBtn" onclick="dropDown()"><img class="hamburger" src="./images/icons8-menu-squared-100.png" alt="menu icon"></button>
+          
+            <div id="dropdownContent"  class="dropdown-content">
+                <a href="./index.html"> About me</a>
+                <a href="./index.html#contact">Contact </a>
+                <a href="./Register.html" >Register </a>
+                <a href="./Login.html">Login</a>
+                <a href="./Calculator 1.html">Calculator 1</a>
+                <a href="./Flexbox calculator.html">Calculator 2</a>
+                <a href="index.html#footer">Footer</a>
+            </div>
+        </div>  
+
+
+
+
+
+
+                            <!--calculator starts here -->
+
+
+        <section id="calculator1" class="calculator1">
+
+
+            <h1>A Simple Calculator Using The Table Element</h1>
+
+            <table class="calc-table-container">
+                
+                    <tr>
+                        <td><input type="text" id="inputArea1" value=""></td>
+                    </tr>
+                
+                            
+                <tbody>
+                    <tr>
+                        <td class="C1">
+                        <input type="button" id="c" value="C">
+                        <input type="button" id="" value="%">
+                        <input type="button" id="" value="/">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <input type="button" id="" value="9">
+                        <input type="button" id="" value="8">
+                        <input type="button" id="" value="7">
+                        <input type="button" id="" value="x">
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td>
+                        <input type="button" id="" value="6">
+                        <input type="button" id="" value="5">
+                        <input type="button" id="" value="4">
+                        <input type="button" id="" value="-">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                        <input type="button" id="" value="3">
+                        <input type="button" id="" value="2">
+                        <input type="button" id="" value="1">
+                        <input type="button" id="" value="+">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                        <input type="button" id="" value="00">
+                        <input type="button" id="" value="0">
+                        <input type="button" id="" value=".">
+                        <input type="button" id="equalsTable" value="=">
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <br><br><br><br><br><br>
+        
+        
+        </section>
+        
+        <script src="script.js"></script>
+        
+    </body>
+</html>
